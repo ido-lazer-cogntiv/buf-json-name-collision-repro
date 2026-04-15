@@ -1,6 +1,6 @@
 # buf v1.68 JSON name collision bug
 
-Minimal reproduction for [bufbuild/buf#4474](https://github.com/bufbuild/buf/issues/4474).
+Minimal reproduction for [bufbuild/buf#4477](https://github.com/bufbuild/buf/issues/4475).
 
 `buf build` fails on proto3 enums with 2-character `[A-Z][a-z]` values (e.g. `Ab`, `Xq`), reporting false JSON name collisions.
 
