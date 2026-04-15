@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package example.v1;
+
+enum Foo {
+  FOO_UNSPECIFIED = 0;
+  Ab = 1;
+  Xq = 2;
+}
